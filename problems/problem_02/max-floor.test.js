@@ -13,9 +13,9 @@ describe('Problem 02 - max-floor', () => {
     }
   ];
   testcases.forEach(tc => {
-    // it(`${tc.input} => ${tc.expected}`, () => {
-    //   const result = maxFloor(tc.input);
-    //   expect(result).to.be.eq(tc.expected);
-    // });
+    it(`${tc.input} => ${tc.expected}`, () => {
+      const result = maxFloor(tc.input);
+      expect(result).to.be.eq(tc.expected);
+    });
   });
 });
